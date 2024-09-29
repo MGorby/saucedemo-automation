@@ -4,7 +4,22 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bca725f1-70c8-453b-98e5-4d143d0fae7a" name="Default Changelist" comment="" />
+    <list default="true" id="bca725f1-70c8-453b-98e5-4d143d0fae7a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/pagesObject/CheckoutPO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pagesObject/LoginPO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pagesObject/NavbarPO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pagesObject/ProductDetailPO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pagesObject/ProductListPO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pagesObject/YourCartPO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/steps/CheckoutSteps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/steps/CommonSteps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/steps/LoginSteps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/steps/ProductDetailSteps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/steps/ProductListSteps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/steps/YourCrartSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/features/sauceAutomation.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/features/sauceAutomation.feature" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -37,7 +52,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../software-test-gorby-bhinneka" />
     <property name="settings.editor.selected.configurable" value="Debugger_Data_Views_Java" />
   </component>
   <component name="RecentsManager">
@@ -112,15 +127,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestRunner" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="POM" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="runner.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="runner" />
+      <option name="MAIN_CLASS_NAME" value="runner.TestRunner" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Cucumber Java.Feature: booking" />
       <item itemvalue="Cucumber Java.Scenario: Sign In feature" />
       <item itemvalue="TestNG.D:\AT\adv test\ebay-web-automation/testng_One.xml" />
       <item itemvalue="TestNG.D:/AT/adv test/ebay-web-automation/testng.xml" />
+      <item itemvalue="TestNG.TestRunner" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="TestNG.D:/AT/adv test/ebay-web-automation/testng.xml" />
+        <item itemvalue="TestNG.TestRunner" />
         <item itemvalue="TestNG.D:\AT\adv test\ebay-web-automation/testng_One.xml" />
       </list>
     </recent_temporary>
