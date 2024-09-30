@@ -26,9 +26,7 @@ public class ProductListPO {
      */
     public void clickOnProductText(String product) throws InterruptedException {
         selenium.hardWait(3);
-//        String element = "//*[contains(text(),'"+menu+"')]";
         String element = "//div[.='"+product+"']";
         selenium.clickOn(By.xpath(element));
-//        selenium.hardWait(1);
     }
 }

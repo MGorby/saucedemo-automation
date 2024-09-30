@@ -7,8 +7,6 @@ import pagesObject.CheckoutPO;
 import tests.TestBase;
 import utility.SeleniumHelpers;
 
-import java.util.Locale;
-
 public class CheckoutSteps extends TestBase {
 
     private SeleniumHelpers selenium = new SeleniumHelpers(driver);
@@ -40,8 +38,13 @@ public class CheckoutSteps extends TestBase {
         checkout.clickOnFinishBtn();
     }
 
-    @Then("user checkout status is {string}")
-    public void userCheckoutStatusIs(String title) {
-        Assert.assertTrue(checkout.getCheckoutStatusTitleText().toLowerCase().contains(title.toLowerCase()), "Status is not expected");
+    @Then("user see the checkout status as {string}")
+    public void userSeeTheCheckoutStatusAs(String status) {
+        Assert.assertTrue(checkout.getCheckoutStatusTitleText().toLowerCase().contains(status.toLowerCase()), "Status is not expected");
+    }
+
+    @Then("user see error message {string}")
+    public void userSeeErrorMessage(String message) {
+        Assert.assertTrue(checkout.getErrorMessageText().contains(message), "Error message is not equals");
     }
 }

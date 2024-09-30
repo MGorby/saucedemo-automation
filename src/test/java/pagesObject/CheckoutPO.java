@@ -37,6 +37,9 @@ public class CheckoutPO {
     @FindBy(css = ".title")
     private WebElement checkoutStatusTxt;
 
+    @FindBy(css = "h3")
+    private WebElement errorMessageText;
+
 
     /**
      * Fill First Name textbox
@@ -76,12 +79,20 @@ public class CheckoutPO {
     }
 
     /**
-     * Get Search Result Title Text
-     *
+     * Get Checkout status Text
      * @return variable
      */
     public String getCheckoutStatusTitleText() {
-        String name = selenium.getText(checkoutStatusTxt);
-        return name.toLowerCase();
+        String status = selenium.getText(checkoutStatusTxt);
+        return status.toLowerCase();
+    }
+
+    /**
+     * Get Error message Text
+     * @return variable
+     */
+    public String getErrorMessageText() {
+        String message = selenium.getText(errorMessageText);
+        return message;
     }
 }
