@@ -5,30 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bca725f1-70c8-453b-98e5-4d143d0fae7a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/features/sauceCheckout.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/features/sauceAutomation.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pagesObject/CheckoutPO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pagesObject/CheckoutPO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/features/sauceCheckout.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/features/sauceAutomation.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pagesObject/NavbarPO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pagesObject/NavbarPO.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/runner/TestRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/runner/TestRunner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/steps/CheckoutSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/steps/CheckoutSteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cucumber-html-report" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pagesObject/CheckoutPO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pagesObject/LoginPO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pagesObject/NavbarPO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pagesObject/ProductDetailPO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pagesObject/ProductListPO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pagesObject/YourCartPO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/runner/TestRunner.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/steps/CheckoutSteps.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/steps/CommonSteps.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/steps/LoginSteps.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/steps/ProductDetailSteps.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/steps/ProductListSteps.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/steps/YourCrartSteps.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/TestBase.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/utility/Helper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/utility/SeleniumHelpers$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/utility/SeleniumHelpers.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/steps/CommonSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/steps/CommonSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/steps/LoginSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/steps/LoginSteps.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,33 +44,21 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../software-test-gorby-bhinneka" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="Debugger_Data_Views_Java" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\AT\adv test\saucedemo-automation" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="runner" />
+    </key>
   </component>
   <component name="RunManager" selected="TestNG.D:/AT/adv test/ebay-web-automation/testng.xml">
-    <configuration name="Feature: booking" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/features/booking.feature" />
-      <option name="GLUE" value="steps" />
-      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
-      <module name="POM" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
-      <option name="SUGGESTED_NAME" value="Feature: booking" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="io.cucumber.core.cli.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Scenario: Sign In feature" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/features/taskOne.feature" />
@@ -137,6 +107,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="D:/AT/adv test/saucedemo-automation/testng-login.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="POM" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng-login.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TestRunner" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="POM" />
       <extension name="coverage">
@@ -155,16 +135,17 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Cucumber Java.Feature: booking" />
       <item itemvalue="Cucumber Java.Scenario: Sign In feature" />
       <item itemvalue="TestNG.D:\AT\adv test\ebay-web-automation/testng_One.xml" />
       <item itemvalue="TestNG.D:/AT/adv test/ebay-web-automation/testng.xml" />
-      <item itemvalue="TestNG.TestRunner" />
+      <item itemvalue="TestNG.TestRunnerCheckout" />
+      <item itemvalue="TestNG.D:/AT/adv test/saucedemo-automation/testng-login.xml" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="TestNG.D:/AT/adv test/ebay-web-automation/testng.xml" />
-        <item itemvalue="TestNG.TestRunner" />
+        <item itemvalue="TestNG.D:/AT/adv test/saucedemo-automation/testng-login.xml" />
+        <item itemvalue="TestNG.TestRunnerCheckout" />
         <item itemvalue="TestNG.D:\AT\adv test\ebay-web-automation/testng_One.xml" />
       </list>
     </recent_temporary>

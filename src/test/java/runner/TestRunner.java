@@ -4,7 +4,7 @@ import io.cucumber.testng.CucumberOptions;
 import tests.TestBase;
 
 @CucumberOptions(
-        features = "src/test/java/features/sauceCheckout.feature",
+        features = "src/test/java/features/sauceAutomation.feature",
         glue = ("steps"),
         plugin = {"pretty", "html:target/cucumber-html-report" }
 )

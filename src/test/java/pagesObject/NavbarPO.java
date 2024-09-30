@@ -29,4 +29,21 @@ public class NavbarPO {
     public void clickOnCartIcon() throws InterruptedException {
         selenium.clickOn(cartIcon);
     }
+
+    /**
+     * Check element cart icon is displayed
+     * @return status true / false
+     */
+    public boolean isCartIconDisplayed() {
+        return selenium.waitTillElementIsVisible(cartIcon) != null;
+    }
+
+    /**
+     * Get URL
+     *
+     * @return URL
+     */
+    public String getURL(){
+        return selenium.getURL();
+    }
 }
